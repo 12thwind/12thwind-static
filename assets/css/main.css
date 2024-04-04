@@ -1270,14 +1270,14 @@ input, select, textarea {
 			position: relative;
 			margin-top: 3.5rem;
 		}
-
+/* Vertical lines in the title section */
 			#header > *:before {
 				content: '';
 				display: block;
 				position: absolute;
 				top: calc(-3.5rem - 1px);
 				left: calc(50% - 1px);
-				width: 1px;
+				width: 0px;
 				height: calc(3.5rem + 1px);
 				background: #ffffff;
 			}
